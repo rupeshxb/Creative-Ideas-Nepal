@@ -589,6 +589,7 @@ footer {
       }
     }
     .products-all {
+      border-bottom: 0.5px solid rgb(192, 192, 192);
       .product-single {
         border-radius: 7px;
         overflow: hidden;
@@ -638,6 +639,52 @@ footer {
         box-shadow: 0px 2px 4px 0px #bbbbbb;
       }
     }
+    .products-pagination {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      .products-pagination-title {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 5px;
+        vertical-align: middle;
+        text-align: center;
+        color: grey;
+      }
+      .product-pagination-numbers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .single-pagination-number {
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          vertical-align: middle;
+          background: #e4e4e4;
+          margin: 5px;
+          border-radius: 10px;
+          font-weight: 600;
+          position: relative;
+          overflow: hidden;
+          a {
+            text-decoration: none;
+            color: inherit;
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            background: transparent;
+            border-radius: 10px;
+          }
+          a:hover {
+            background: rgb(185, 185, 185);
+          }
+        }
+      }
+    }
   }
 }
 
@@ -650,6 +697,42 @@ footer {
         div {
           padding-top: 5px;
           padding-bottom: 5px;
+        }
+      }
+      .products-pagination {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .shop-product-section {
+    .shop-all-products {
+      .shop-control-bar {
+        select {
+          width: 100%;
+        }
+      }
+      .products-pagination {
+        display: flex;
+        flex-direction: column;
+        .products-pagination-title {
+          height: auto;
+          line-height: normal;
+        }
+        .product-pagination-numbers {
+          .single-pagination-number {
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            vertical-align: middle;
+            background: #e4e4e4;
+            margin: 5px;
+            border-radius: 10px;
+          }
         }
       }
     }
