@@ -240,6 +240,10 @@ $pri-color: #902829;
             font-family: "PT Sans Narrow";
             font-weight: 500;
             font-size: 18px;
+            a {
+              text-decoration: none;
+              color: inherit;
+            }
           }
           .dropdown-item:hover {
             color: #d80004;
@@ -546,6 +550,7 @@ footer {
 
 .shop-product-section {
   margin-top: 30px;
+  margin-bottom: 30px;
   .shop-section-breadcrumb {
     padding: 12px;
     font-size: 15px;
@@ -561,25 +566,76 @@ footer {
     }
   }
   .shop-all-products {
-    background-color: #902829;
-    border-radius: 10px;
-    box-shadow: 0px 1px 2px 0px #d4d4d4;
-    padding: 25px 12px;
-    font-size: 18px;
-    font-family: "Asap";
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
     .shop-control-bar {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      background-color: #902829;
+      border-radius: 10px;
+      box-shadow: 0px 1px 2px 0px #d4d4d4;
+      padding: 25px 12px;
+      font-size: 18px;
+      font-family: "Asap";
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: white;
       select {
         background-color: #902829;
         border: 1px solid white;
         color: white;
         outline: none;
         border-radius: 30px;
+        padding: 0px 5px;
+      }
+    }
+    .products-all {
+      .product-single {
+        border-radius: 7px;
+        overflow: hidden;
+        background: rgb(235, 235, 235);
+        margin-bottom: 30px;
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
+        .product-image {
+          width: 100%;
+          height: 250px;
+          overflow: hidden;
+          background: rgb(214, 214, 214);
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .product-title {
+          color: #902829;
+          font-weight: 600;
+          padding-top: 5px;
+          padding-left: 15px;
+          font-family: "Asap";
+        }
+        .product-category {
+          padding-left: 15px;
+          padding-bottom: 10px;
+          font-size: 15px;
+          color: grey;
+          font-family: "Nunito";
+          font-family: "PT Sans Narrow";
+          letter-spacing: 1px;
+        }
+        .product-price {
+          padding-top: 5px;
+          font-weight: 600;
+          font-family: "Asap";
+          color: darkgreen;
+        }
+      }
+      .product-single:hover {
+        transform: scale(1.025);
+        transition: all 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        box-shadow: 0px 2px 4px 0px #bbbbbb;
       }
     }
   }
