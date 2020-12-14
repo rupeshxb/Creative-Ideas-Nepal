@@ -794,4 +794,49 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
     border-radius: 10px;
   }
 }
+
+.request-quote-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.request-quote-section .request-quote-section-breadcrumb {
+  padding: 12px;
+  font-size: 15px;
+  font-family: "Asap";
+}
+
+.request-quote-section .request-quote-section-breadcrumb a {
+  text-decoration: none;
+  color: #902829;
+}
+
+.request-quote-section .request-quote-section-breadcrumb .request-quote-title {
+  font-size: 35px;
+  font-family: serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.request-quote-section .request-quote-section-breadcrumb .request-quote-description {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.request-quote-section .request-quote-form {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.request-quote-section .request-quote-form input {
+  width: 100%;
+}
+
+.request-quote-section .request-quote-form textarea {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

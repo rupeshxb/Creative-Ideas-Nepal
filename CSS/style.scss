@@ -740,3 +740,45 @@ footer {
 }
 
 // ------------ Shop Product starts ------------------ //
+
+// ------------ Request Quote starts ---------------- //
+
+.request-quote-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .request-quote-section-breadcrumb {
+    padding: 12px;
+    font-size: 15px;
+    font-family: "Asap";
+    a {
+      text-decoration: none;
+      color: #902829;
+    }
+    .request-quote-title {
+      font-size: 35px;
+      font-family: serif;
+      font-weight: 700;
+      text-align: center;
+    }
+    .request-quote-description {
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+  .request-quote-form {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 15px;
+    input {
+      width: 100%;
+    }
+    textarea {
+      width: 100%;
+    }
+  }
+}
+
+// ------------ Request Quote starts ---------------- //
