@@ -641,4 +641,19 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  .shop-product-section {
+    .shop-all-products {
+      .shop-control-bar {
+        display: flex;
+        flex-direction: column;
+        div {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+
 // ------------ Shop Product starts ------------------ //
