@@ -1,0 +1,269 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Ideas</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="text/javasript"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    />
+    <link
+      rel="text/javascript"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+    />
+  </head>
+  <body>
+    <!-- Main Body starts -->
+
+    <main>
+      <div class="primary-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="navbar-logo">
+            <a class="navbar-brand" href="index.html"
+              ><img src="assets/png/logo-creative-final.png"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><div class="image-in-nav-item">
+                    <img src="assets/png/home.png" />
+                  </div>
+                  <div>Home</div></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><div class="image-in-nav-item">
+                    <img src="assets/png/about-us.png" />
+                  </div>
+                  <div>About us</div></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><div class="image-in-nav-item">
+                    <img src="assets/png/request-quote.png" />
+                  </div>
+                  <div>Request a quote</div></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <div class="image-in-nav-item">
+                    <img src="assets/png/product.png" />
+                  </div>
+                  <div>Shop</div>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-item">Graphic Design</div>
+                  <div class="dropdown-item">Cup Print</div>
+
+                  <div class="dropdown-item">Stamp Print</div>
+                  <div class="dropdown-item">Offset Print</div>
+                  <div class="dropdown-item">Digital Print</div>
+                  <div class="dropdown-item">Social Media Marketting</div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <div class="image-in-nav-item">
+                    <img src="assets/png/customer-service.png" />
+                  </div>
+                  <div>Customer Service</div>
+                </a>
+                <div
+                  class="dropdown-menu"
+                  id="dropdown-contact"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <div class="dropdown-item">
+                    <div><strong>Address:</strong></div>
+                    New Baneswor, Kathmandu
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="dropdown-item" id="phone-in-dropdown">
+                    <div><strong>Phone:</strong></div>
+                    <a href="tel:+9779812345678"> 9812345678,&nbsp;</a
+                    ><a href="tel:+9779812345678"> 9812345678</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="dropdown-item">
+                    <div><strong>Email:</strong></div>
+                    creativeideas@gmail.com
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="dropdown-item">
+                    <div><strong>Opening hours:</strong></div>
+                    10:00 am - 06:00 pm <br />
+                    From Sunday to Friday
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form> -->
+          </div>
+        </nav>
+      </div>
+
+      <div class="shop-product-section">
+        <div class="container">
+          <div class="shop-section-breadcrumb">
+            <a href="index.html"><strong>Home</strong></a
+            >&nbsp;&gt;&nbsp;Shop
+            <div class="shop-product-title">SHOP</div>
+          </div>
+          <div class="shop-all-products">
+            <div class="shop-control-bar">
+              <div>Showing 8-10 of 100 products</div>
+              <div>
+                <select name="orderby" class="orderby">
+                  <option value="default-order">Sort by default</option>
+                  <option value="popularity">Sort by popularity</option>
+                  <option value="rating">Sort by rating</option>
+                  <option value="date">Sort by latest</option>
+                  <option value="price">Sort by price: low to high</option>
+                  <option value="price-desc">Sort by price: high to low</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Main body ends -->
+
+    <!-- Footer starts -->
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-content-wrapper">
+          <div class="footer-top-text">
+            <p>WE OFFER DESIGN TO PRINTING...LETS TALK!</p>
+            Working on a project? Need a quote?
+          </div>
+          <div class="footer-elements">
+            <div class="row">
+              <div class="col-lg-3 col-6">
+                <div class="footer-item">
+                  <a href="#">
+                    <div class="footer-item-top">
+                      <div class="quote-image">
+                        <img src="assets/png/request-quote.png" />
+                      </div>
+                    </div>
+
+                    <div class="footer-item-bottom">Request a quote</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="footer-item">
+                  <a href="#">
+                    <div class="footer-item-top">
+                      <div class="upload-image">
+                        <img src="assets/png/upload-file.png" />
+                      </div>
+                    </div>
+                    <div class="footer-item-bottom">Upload a file</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="footer-item">
+                  <a href="#">
+                    <div class="footer-item-top">
+                      <div class="about-us-image">
+                        <img src="assets/png/about-for-footer.png" />
+                      </div>
+                    </div>
+                    <div class="footer-item-bottom">About us</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-6">
+                <div class="footer-item">
+                  <a href="#">
+                    <div class="footer-item-top">
+                      <div class="location-image">
+                        <img src="assets/png/location-image.png" />
+                      </div>
+                    </div>
+                    <div class="footer-item-bottom">Visit Our Shop</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-text">
+            Bagbazar, Kathmandu, Nepal<span>&nbsp;|&nbsp;</span>
+            <a href="tel:9779851219228">+977 9851219228</a
+            ><span>&nbsp;|&nbsp;</span>
+            <a href="mailto:creativeideas@gmail.com">Creativeideas@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer ends -->
+
+    <!-- Scripts starts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+
+    <!-- Scrpts ends -->
+  </body>
+</html>
