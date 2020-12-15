@@ -781,12 +781,40 @@ footer {
       padding-top: 10px;
       padding-bottom: 10px;
       font-family: "Nunito";
-      color: rgb(185, 185, 185);
+      color: rgb(36, 36, 36);
     }
     input {
       width: 100%;
     }
     textarea {
+      width: 100%;
+    }
+  }
+  .request-quote-button {
+    text-align: center;
+    margin-top: 30px;
+    button {
+      outline: none;
+      border: 0;
+      background: #902829;
+      color: white;
+      font-weight: 600;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-family: "Nunito";
+    }
+    button:hover {
+      background: #be0029;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .request-quote-section {
+    .request-quote-description {
+      width: 90%;
+    }
+    .request-quote-form {
       width: 100%;
     }
   }

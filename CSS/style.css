@@ -842,7 +842,7 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "Nunito";
-  color: #b9b9b9;
+  color: #242424;
 }
 
 .request-quote-section .request-quote-form input {
@@ -851,5 +851,34 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
 
 .request-quote-section .request-quote-form textarea {
   width: 100%;
+}
+
+.request-quote-section .request-quote-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.request-quote-section .request-quote-button button {
+  outline: none;
+  border: 0;
+  background: #902829;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Nunito";
+}
+
+.request-quote-section .request-quote-button button:hover {
+  background: #be0029;
+}
+
+@media (max-width: 768px) {
+  .request-quote-section .request-quote-description {
+    width: 90%;
+  }
+  .request-quote-section .request-quote-form {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
