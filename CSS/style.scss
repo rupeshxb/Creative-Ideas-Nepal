@@ -555,6 +555,7 @@ footer {
     padding: 12px;
     font-size: 15px;
     font-family: "Asap";
+    border-bottom: 0.5px solid rgb(202, 202, 202);
     a {
       text-decoration: none;
       color: #902829;
@@ -750,28 +751,38 @@ footer {
     padding: 12px;
     font-size: 15px;
     font-family: "Asap";
+    border-bottom: 0.5px solid rgb(202, 202, 202);
     a {
       text-decoration: none;
       color: #902829;
     }
-    .request-quote-title {
-      font-size: 35px;
-      font-family: serif;
-      font-weight: 700;
-      text-align: center;
-    }
-    .request-quote-description {
-      text-align: center;
-      width: 70%;
-      margin: 0 auto;
-    }
+  }
+  .request-quote-title {
+    font-size: 35px;
+    font-family: serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+  }
+  .request-quote-description {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
   }
   .request-quote-form {
     margin: 0 auto;
     width: 80%;
-    border: 1px solid grey;
     border-radius: 7px;
     padding: 15px;
+    box-shadow: 0px 2px 4px 0px rgb(77, 77, 77);
+    background: #f1f1f1;
+    .form-t {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: "Nunito";
+      color: rgb(185, 185, 185);
+    }
     input {
       width: 100%;
     }
