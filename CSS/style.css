@@ -312,6 +312,13 @@
   width: 50px;
 }
 
+@media (max-width: 992px) {
+  .primary-navbar .navbar .navbar-nav {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
 footer .footer-content {
   width: 100%;
   display: -webkit-box;
@@ -934,7 +941,7 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
   border-bottom: 1px dashed #b4b4b4;
   font-size: 14px;
   color: #363636;
-  font-family: 'Asap';
+  font-family: "Asap";
 }
 
 .single-product-section .single-product-all .single-product-all-details .single-product-share {
@@ -1027,5 +1034,27 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
   cursor: pointer;
   color: grey;
   border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .single-product-section .single-product-all {
+    padding-top: 30px;
+  }
+  .single-product-section .single-product-all .single-product-all-details {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-product-section .single-product-all .single-product-price-details .single-product-upload .single-product-upload-dropzone {
+    display: none;
+  }
+}
+
+@media (max-width: 426px) {
+  .single-product-section .single-product-all .single-product-image {
+    width: 100%;
+    height: 235px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
