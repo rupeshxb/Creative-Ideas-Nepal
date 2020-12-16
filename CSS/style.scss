@@ -969,3 +969,173 @@ footer {
 }
 
 // -------------- Single Product ends ---------------- //
+
+// --------------- About Us starts ---------------- //
+
+.about-us-section {
+  .about-us-header {
+    background: #d09500;
+    color: black;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Raleway";
+    .about-us-header-directions {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: "Fira Sans";
+      a {
+        text-decoration: none;
+        color: #902829;
+        font-weight: 500;
+      }
+    }
+  }
+  .about-us-overview {
+    margin-top: 130px;
+    margin-bottom: 60px;
+    position: relative;
+    .about-us-overview-text-section {
+      width: 100%;
+      .about-us-overview-text {
+        background: #dbdbdb;
+        padding: 50px 150px 40px 50px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        h1 {
+          font-weight: 800;
+          font-size: 50px;
+          color: #902829;
+        }
+        p {
+          color: black;
+          font-family: "Nunito";
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+        .about-request-quote {
+          margin-bottom: 30px;
+          margin-top: 40px;
+          a {
+            outline: none;
+            border: 0;
+            background: #902829;
+            color: white;
+            border-radius: 5px;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 10px 30px;
+            font-family: "Raleway";
+            text-decoration: none;
+          }
+          a:hover {
+            background: #b12c2f;
+            transition: 0.3s all cubic-bezier(0.47, 0, 0.745, 0.715);
+          }
+        }
+      }
+    }
+    .about-us-overview-image {
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      right: 100px;
+      top: -80px;
+      img {
+        width: 120%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+  }
+  .why-choose-us {
+    background: #dbdbdb;
+    padding: 50px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    font-family: "Asap";
+    h4 {
+      color: #902829;
+    }
+  }
+  .about-our-services {
+    background: #dbdbdb;
+    padding: 50px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    font-family: "Asap";
+    h4 {
+      color: #902829;
+    }
+    ul {
+      li::marker {
+        color: #902829;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about-us-section {
+    .about-us-header {
+      .about-us-header-directions {
+        a {
+        }
+      }
+    }
+    .about-us-overview {
+      .about-us-overview-text-section {
+        .about-us-overview-text {
+          padding: 25px;
+          h1 {
+          }
+          p {
+          }
+          .about-request-quote {
+            a {
+            }
+            a:hover {
+            }
+          }
+        }
+      }
+      .about-us-overview-image {
+        position: relative;
+        top: 0;
+        right: 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .why-choose-us {
+      padding: 25px;
+      h4 {
+      }
+    }
+    .about-our-services {
+      padding: 25px;
+      h4 {
+      }
+      ul {
+        padding-left: 15px;
+        li::marker {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-section {
+    .about-us-overview {
+      margin-top: 60px;
+    }
+  }
+}
+// --------------- About us ends ------------------ //
