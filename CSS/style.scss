@@ -26,6 +26,10 @@ $pri-color: #902829;
 
 // --------------- Main body section ---------------- //
 
+html {
+  scroll-behavior: smooth;
+}
+
 #index-main {
   background-image: url(../assets/images/background-website.jpg);
   background-size: cover;
@@ -1139,3 +1143,108 @@ footer {
   }
 }
 // --------------- About us ends ------------------ //
+
+// --------------- Visit Us starts ------------------ //
+
+.visit-section {
+  .visit-header {
+    background: #d09500;
+    color: black;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Raleway";
+    .visit-header-directions {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: "Fira Sans";
+      a {
+        text-decoration: none;
+        color: #902829;
+        font-weight: 500;
+      }
+    }
+    .go-to-map {
+      a {
+        font-size: 14px;
+        color: white;
+        padding: 5px 10px;
+        background: #902829;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+    }
+  }
+  .visit-overview {
+    margin-top: 130px;
+    margin-bottom: 60px;
+    position: relative;
+    .visit-text-section {
+      width: 100%;
+      .visit-overview-text {
+        background: #dbdbdb;
+        padding: 50px 150px 40px 50px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+        h1 {
+          font-weight: 800;
+          font-size: 50px;
+          color: #902829;
+        }
+        p {
+          color: black;
+          font-family: "Nunito";
+          margin-bottom: 30px;
+          margin-top: 30px;
+        }
+      }
+    }
+    .visit-overview-image {
+      width: 100%;
+      height: 400px;
+      position: absolute;
+      right: 100px;
+      top: -80px;
+      img {
+        width: 120%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .visit-section {
+    .visit-overview {
+      .visit-text-section {
+        .visit-overview-text {
+          padding: 25px;
+        }
+      }
+      .visit-overview-image {
+        position: relative;
+        top: 0;
+        right: 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .visit-section {
+    .visit-overview {
+      margin-top: 60px;
+    }
+  }
+}
+
+// --------------- Visit us ends ------------------- //
