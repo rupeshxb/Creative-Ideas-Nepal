@@ -881,4 +881,151 @@ footer .footer-content .footer-content-wrapper .footer-bottom-text a {
     width: 100%;
   }
 }
+
+.single-product-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.single-product-section .single-product-section-breadcrumb {
+  padding: 12px;
+  font-size: 15px;
+  font-family: "Asap";
+  border-bottom: 0.5px solid #cacaca;
+}
+
+.single-product-section .single-product-section-breadcrumb a {
+  text-decoration: none;
+  color: #902829;
+}
+
+.single-product-section .single-product-section-breadcrumb .single-product-section-title {
+  font-size: 35px;
+  font-family: serif;
+  font-weight: 700;
+}
+
+.single-product-section .single-product-all {
+  padding-top: 60px;
+}
+
+.single-product-section .single-product-all .single-product-image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.single-product-section .single-product-all .single-product-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-name {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-details {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px dashed #b4b4b4;
+  border-bottom: 1px dashed #b4b4b4;
+  font-size: 14px;
+  color: #363636;
+  font-family: 'Asap';
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-share {
+  padding-top: 15px;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-share ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 0px;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-share ul li {
+  width: 40px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-share ul li a {
+  color: inherit;
+}
+
+.single-product-section .single-product-all .single-product-all-details .single-product-share ul li i:hover {
+  color: #902829;
+}
+
+.single-product-section .single-product-all .single-product-price-details {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-price {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #b4b4b4;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-price del {
+  color: red;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-upload {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-upload .upload-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-upload .upload-button button {
+  outline: none;
+  border: 0;
+  background: #902829;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-upload .upload-button button:hover {
+  background: #b83f41;
+}
+
+.single-product-section .single-product-all .single-product-price-details .single-product-upload .single-product-upload-dropzone {
+  padding: 10px;
+  height: 200px;
+  width: 100%;
+  border: 1px dashed blue;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #c7e5f0;
+  cursor: pointer;
+  color: grey;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=style.css.map */
